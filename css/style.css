@@ -3230,12 +3230,12 @@ ol {
 	.canvas__open {
 		display: block;
 		font-size: 22px;
-		color: #323232;
+		color: #c72525;
 		height: 35px;
 		width: 35px;
 		line-height: 35px;
 		text-align: center;
-		border: 1px solid #323232;
+		border: 1px solid #ede9e9;
 		border-radius: 2px;
 		cursor: pointer;
 		position: absolute;
