@@ -111,13 +111,14 @@
                                     <ul class="dropdown">
                                         <li><a href="./car-details-BMW-X4.html">BMW-X4</a></li>
                                         <li><a href="./car-details-BMW.html">BMW</a></li>
-                                        <li><a href="./car-details-Mercedes-Clk-200.html">Mercedes-Clk-200</a></li>
+                                        <li><a href="./car-details-Volkswagen-High Up.html">Volkswagen-High-Up</a></li>
+                                        <li><a href="./car-details-Hyundai-I10.html">Hyundai-I10</a></li>
                                         <li><a href="./car-details-Nissan-Pulsar.html">Nissan-PULSAR</a></li>
                                         <li><a href="./car-details-Fiat Panda.html">Fiat-Panda</a></li>
                                         <li><a href="./car-details-Fiat-500.html">Fiat-500</a></li>
-                                        <li><a href="./car-details-Hyundai-I10.html">Hyundai-I10</a></li>
                                         <li><a href="./car-details-Kia-Picanto.html">Kia-Picanto</a></li>
-                                        <li><a href="./car-details-Volkswagen-High Up.html">Volkswagen-High-Up</a></li>
+                                        <li><a href="./car-details-Fird-Fiesta.html">Ford-Fiesta</a></li>
+                                        <li><a href="./car-details-Mercedes-Clk-200.html">Mercedes-Clk-200</a></li>
                                     </ul>
                                 </li>
                                 <li><a href="./about.html">About</a></li>
@@ -167,7 +168,7 @@
                     <div class="car__sidebar">
                         <div class="car__search">
                             <h5>Car Search</h5>
-                            <form action="#">
+                            <form action="submit">
                                 <input type="text" placeholder="Search...">
                                 <button type="submit"><i class="fa fa-search"></i></button>
                             </form>
@@ -177,53 +178,55 @@
                             <form action="car.html">
                                 <select>
                                     <option data-display="Brand">Select Brand</option>
-                                    <option value="">Acura</option>
-                                    <option value="">Audi</option>
-                                    <option value="">Bentley</option>
-                                    <option value="">BMW</option>
-                                    <option value="">Bugatti</option>
+                                    <option value="Ford">Ford</option>
+                                    <option value="Mercedes">Mercedes-Benz</option>
+                                    <option value="Fiat">Fiat</option>
+                                    <option value="BMW">BMW</option>
+                                    <option value="Kia">Kia</option>
+                                    <option value="Hyundai">Hyundai</option>
+                                    <option value="Volkswagen">Volkswagen</option>
                                 </select>
                                 <select>
-                                    <option data-display="Model">Select Model</option>
-                                    <option value="">Q3</option>
-                                    <option value="">A4 </option>
-                                    <option value="">AVENTADOR</option>
+                                    <option data-display="Model">Select Year</option>
+                                    <option value="2005">2005</option>
+                                    <option value="2006">2006 </option>
+                                    <option value="2010">2010</option>
+                                    <option value="2012">2012</option>
+                                    <option value="2013">2013</option>
+                                    <option value="2015">2015</option>
+                                    <option value="2018">2018</option>
+                                    <option value="2019">2019</option>
+
+
+                                </select>
+                                
+                                <select>
+                                    <option value="Condition">Condition</option>
+                                    <option value="First Hand">First Hand</option>
+                                    <option value="Second Hand">Second Hand</option>
+                                </select>
+                                
+                                <select>
+                                    <option value="Mileage">Mileage</option>
+                                    <option value="35">35</option>
+                                    <option value="30">30</option>
+                                    <option value="25">25</option>
+                                    <option value="20">20</option>
+                                    <option value="15">15</option>
+                                    <option value="10">10</option>
+
                                 </select>
                                 <select>
-                                    <option value="">Body Style</option>
-                                    <option value="">Option 1</option>
-                                    <option value="">Option 2</option>
+                                    <option value="Engine">Engine</option>
+                                    <option value="Petrol">Petrol</option>
+                                    <option value="Diesel">Diesel</option>
                                 </select>
                                 <select>
-                                    <option value="">Condition</option>
-                                    <option value="">First Hand</option>
-                                    <option value="">Second Hand</option>
-                                </select>
-                                <select>
-                                    <option value="">Transmisson</option>
-                                    <option value="">Bluetooth</option>
-                                    <option value="">WiFi</option>
-                                </select>
-                                <select>
-                                    <option value="">Mileage</option>
-                                    <option value="">27</option>
-                                    <option value="">20</option>
-                                    <option value="">15</option>
-                                    <option value="">10</option>
-                                </select>
-                                <select>
-                                    <option value="">Engine</option>
-                                    <option value="">BS3</option>
-                                    <option value="">BS4</option>
-                                    <option value="">BS5</option>
-                                    <option value="">BS6</option>
-                                </select>
-                                <select>
-                                    <option value="">Colors</option>
-                                    <option value="">Red</option>
-                                    <option value="">Blue</option>
-                                    <option value="">Black</option>
-                                    <option value="">Yellow</option>
+                                    <option value="Colors">Colors</option>
+                                    <option value="Red">Red</option>
+                                    <option value="Blue">Blue</option>
+                                    <option value="Black">Black</option>
+                                    <option value="Yellow">Yellow</option>
                                 </select>
                                 <div class="filter-price">
                                     <p>Price:</p>
@@ -250,9 +253,9 @@
                                 <div class="car__filter__option__item">
                                     <h6>Show On Page</h6>
                                     <select>
-                                        <option value="">9 Car</option>
-                                        <option value="">15 Car</option>
-                                        <option value="">20 Car</option>
+                                        <option value="9">9 Car</option>
+                                        <option value="15">15 Car</option>
+                                        <option value="20">20 Car</option>
                                     </select>
                                 </div>
                             </div>
@@ -260,8 +263,8 @@
                                 <div class="car__filter__option__item car__filter__option__item--right">
                                     <h6>Sort By</h6>
                                     <select>
-                                        <option value="">Price: Highest Fist</option>
-                                        <option value="">Price: Lowest Fist</option>
+                                        <option value="£30000">Price: Highest Fist</option>
+                                        <option value="£1000">Price: Lowest Fist</option>
                                     </select>
                                 </div>
                             </div>
@@ -295,31 +298,7 @@
                             </div>
                         </div>
                        
-                        <div class="col-lg-3 col-md-4 col-sm-6 mix active">
-                            <div class="car__item">
-                                <div class="car__item__pic__slider owl-carousel">
-                                    <img src="img/cars/Mercedes-clk200/IMG-20231120-WA0002.jpg" alt="">
-                                    <img src="img/cars/Mercedes-clk200/IMG-20231120-WA0003.jpg" alt="">
-                                    <img src="img/cars/Mercedes-clk200/IMG-20231120-WA0004.jpg" alt="">
-                                    <img src="img/cars/Mercedes-clk200/IMG-20231120-WA0005.jpg" alt="">
-                                </div>
-                                <div class="car__item__text">
-                                    <div class="car__item__text__inner">
-                                        <div class="label-date">2005</div>
-                                        <h5><a href="./car-details-Mercedes-Clk-200.html">Mercedes-Benz-Clk200</a></h5>
-                                        <ul>
-                                            <li><span>141,650</span> mi</li>
-                                            <li>Manual</li>
-                                            <li><span>Petrol</span></li>
-                                        </ul>
-                                    </div>
-                                    <div class="car__item__price">
-                                        <span class="car-option sale">For sale</span>
-                                        <h6>£2,000</h6>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
+                       
                         <div class="col-lg-3 col-md-4 col-sm-6 mix active">
                             <div class="car__item">
                                 <div class="car__item__pic__slider owl-carousel">
@@ -345,36 +324,56 @@
                                 </div>
                             </div>
                         </div>
-                       
-                        
                         <div class="col-lg-3 col-md-4 col-sm-6 mix sale">
                             <div class="car__item">
                                 <div class="car__item__pic__slider owl-carousel">
-                                    <img src="img/cars/Kia-Picanto/IMG-20231114-WA0101.jpg" alt="">
-                                    <img src="img/cars/Kia-Picanto/IMG-20231114-WA0102.jpg" alt="">
-                                    <img src="img/cars/Kia-Picanto/IMG-20231114-WA0104.jpg" alt="">
-                                    <img src="img/cars/Kia-Picanto/IMG-20231114-WA0107.jpg"alt="">
+                                    <img src="img/cars/VW/IMG-20231117-WA0001.jpg" alt="">
+                                    <img src="img/cars/VW/IMG-20231117-WA0002.jpg" alt="">
+                                    <img src="img/cars/VW/IMG-20231117-WA0003.jpg" alt="">
+                                    <img src="img/cars/VW/IMG-20231117-WA0004.jpg" alt="">
                                 </div>
                                 <div class="car__item__text">
                                     <div class="car__item__text__inner">
-                                        <div class="label-date">2009</div>
-                                        <h5><a href="./car-details-Kia-Picanto.html">Kia Picanto</a></h5>
+                                        <div class="label-date">2017</div>
+                                        <h5><a href="./car-details-Volkswagen-High Up.html">Volkswagen-Up</a></h5>
                                         <ul>
-                                            <li><span>38,000</span> mi</li>
-                                            <li>2 keys</li>
+                                            <li><span>31,500</span> mi</li>
                                             <li>Full Serviced</li>
-                                            <li><span>Hpi</span>Clear</li>
+                                            <li><span>Cat</span> S</li>
                                         </ul>
                                     </div>
                                     <div class="car__item__price">
-                                        <span class="car-option sale">For Sale</span>
-                                        <h6>£2600</h6>
+                                        <span class="car-option sale">For sale</span>
+                                        <h6>£7500</h6>
                                     </div>
                                 </div>
                             </div>
                         </div>
-        
-        
+                        <div class="col-lg-3 col-md-4 col-sm-6 mix active">
+                            <div class="car__item">
+                                <div class="car__item__pic__slider owl-carousel">
+                                    <img src="img/cars/Nissan-PULSAR/IMG-20231114-WA0150.jpg" alt="">
+                                    <img src="img/cars/Nissan-PULSAR/IMG-20231114-WA0151.jpg" alt="">
+                                    <img src="img/cars/Nissan-PULSAR/IMG-20231114-WA0154.jpg" alt="">
+                                    <img src="img/cars/Nissan-PULSAR/zjrxfOMmkh2XvMU8OctDD4rSZyBQGpgM.jpg" alt="">
+                                </div>
+                                <div class="car__item__text">
+                                    <div class="car__item__text__inner">
+                                        <div class="label-date">2016</div>
+                                        <h5><a href="./car-details-Nissan-Pulsar.html">Nissan-Pulsar</a></h5>
+                                        <ul>
+                                            <li><span>34,000</span> mi</li>
+                                            <li>Manual</li>
+                                            <li><span>Cat</span> N</li>
+                                        </ul>
+                                    </div>
+                                    <div class="car__item__price">
+                                        <span class="car-option sale">For Sale</span>
+                                        <h6>£5,750</h6>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
                     </div>
                     <div class="row car-filter">
                         <div class="col-lg-3 col-md-4 col-sm-6 mix sale">
@@ -402,31 +401,7 @@
                                 </div>
                             </div>
                         </div>
-                        <div class="col-lg-3 col-md-4 col-sm-6 mix sale">
-                            <div class="car__item">
-                                <div class="car__item__pic__slider owl-carousel">
-                                    <img src="img/cars/Fiat Panda/IMG-20231114-WA0027.jpg" alt="">
-                                    <img src="img/cars/Fiat Panda/IMG-20231114-WA0028.jpg" alt="">
-                                    <img src="img/cars/Fiat Panda/IMG-20231114-WA0031.jpg" alt="">
-                                    <img src="img/cars/Fiat Panda/IMG-20231114-WA0032.jpg" alt="">
-                                </div>
-                                <div class="car__item__text">
-                                    <div class="car__item__text__inner">
-                                        <div class="label-date">2006</div>
-                                        <h5><a href="./car-details-Fiat Panda.html">Fiat-Panda Eleganza</a></h5>
-                                        <ul>
-                                            <li><span>29,000</span> mi</li>
-                                            <li>2 keys</li>
-                                            <li><span>Hpi</span>Clear</li>
-                                        </ul>
-                                    </div>
-                                    <div class="car__item__price">
-                                        <span class="car-option sale">For Sale</span>
-                                        <h6>£2500</h6>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
+                       
                         <div class="col-lg-3 col-md-4 col-sm-6 mix sale">
                             <div class="car__item">
                                 <div class="car__item__pic__slider owl-carousel">
@@ -441,9 +416,7 @@
                                         <h5><a href="./car-details-Hyundai-I10.html">Hyundai-I10 Active</a></h5>
                                         <ul>
                                             <li><span>46,000</span> mi</li>
-                                            <li>1 Owner</li>
-                                            <li>2 keys</li>
-                                            <li>Full Serviced</li>
+                                            <li><span>Full Serviced</span></li>
                                             <li><span>Hpi</span> clear</li>
                                         </ul>
                                     </div>
@@ -457,25 +430,50 @@
                         <div class="col-lg-3 col-md-4 col-sm-6 mix active">
                             <div class="car__item">
                                 <div class="car__item__pic__slider owl-carousel">
-                                    <img src="img/cars/Nissan-PULSAR/IMG-20231114-WA0150.jpg" alt="">
-                                    <img src="img/cars/Nissan-PULSAR/IMG-20231114-WA0151.jpg" alt="">
-                                    <img src="img/cars/Nissan-PULSAR/IMG-20231114-WA0154.jpg" alt="">
-                                    <img src="img/cars/Nissan-PULSAR/zjrxfOMmkh2XvMU8OctDD4rSZyBQGpgM.jpg" alt="">
+                                    <img src="img/cars/Ford-Fiesta/IMG-20231123-WA0004.jpg" alt="">
+                                    <img src="img/cars/Ford-Fiesta/IMG-20231123-WA0005.jpg" alt="">
+                                    <img src="img/cars/Ford-Fiesta/IMG-20231123-WA0006.jpg" alt="">
+                                    <img src="img/cars/Ford-Fiesta/IMG-20231123-WA0007.jpg" alt="">
                                 </div>
                                 <div class="car__item__text">
                                     <div class="car__item__text__inner">
-                                        <div class="label-date">2016</div>
-                                        <h5><a href="./car-details-Nissan-Pulsar.html">Nissan-Pulsar</a></h5>
+                                        <div class="label-date">2012</div>
+                                        <h5><a href="./car-details-Ford-Fiesta.html">Ford-Fiesta</a></h5>
                                         <ul>
-                                            <li><span>34,000</span> mi</li>
-                                            <li>Manual</li>
-                                            <li>1 kry</li>
-                                            <li><span>Cat</span> N</li>
+                                            <li><span>84,000</span> mi</li>
+                                            <li><span>petrol</span></li>
+                                            <li><span>Cat</span> S</li>
                                         </ul>
                                     </div>
                                     <div class="car__item__price">
                                         <span class="car-option sale">For Sale</span>
-                                        <h6>£5,750</h6>
+                                        <h6>£2,750</h6>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <div class="col-lg-3 col-md-4 col-sm-6 mix sale">
+                            <div class="car__item">
+                                <div class="car__item__pic__slider owl-carousel">
+                                    <img src="img/cars/Kia-Picanto/IMG-20231114-WA0101.jpg" alt="">
+                                    <img src="img/cars/Kia-Picanto/IMG-20231114-WA0102.jpg" alt="">
+                                    <img src="img/cars/Kia-Picanto/IMG-20231114-WA0104.jpg" alt="">
+                                    <img src="img/cars/Kia-Picanto/IMG-20231114-WA0106.jpg"alt="">
+                                </div>
+                                <div class="car__item__text">
+                                    <div class="car__item__text__inner">
+                                        <div class="label-date">2009</div>
+                                        <h5><a href="./car-details-Kia-Picanto.html">Kia Picanto</a></h5>
+                                        <ul>
+                                            <li><span>38,000</span> mi</li>
+                                            <li><span>2 keys</span></li>
+                                            <li><span>Hpi</span>Clear</li>
+                                        </ul>
+                                    </div>
+                                    <div class="car__item__price">
+                                        <span class="car-option sale">For Sale</span>
+                                        <h6>£2600</h6>
                                     </div>
                                 </div>
                             </div>
@@ -484,32 +482,57 @@
                 
                     </div>
                     <div class="row car-filter">
+                        
                         <div class="col-lg-3 col-md-4 col-sm-6 mix sale">
                             <div class="car__item">
                                 <div class="car__item__pic__slider owl-carousel">
-                                    <img src="img/cars/VW/IMG-20231117-WA0001.jpg" alt="">
-                                    <img src="img/cars/VW/IMG-20231117-WA0002.jpg" alt="">
-                                    <img src="img/cars/VW/IMG-20231117-WA0003.jpg" alt="">
-                                    <img src="img/cars/VW/IMG-20231117-WA0004.jpg" alt="">
+                                    <img src="img/cars/Fiat Panda/IMG-20231114-WA0027.jpg" alt="">
+                                    <img src="img/cars/Fiat Panda/IMG-20231114-WA0028.jpg" alt="">
+                                    <img src="img/cars/Fiat Panda/IMG-20231114-WA0031.jpg" alt="">
+                                    <img src="img/cars/Fiat Panda/IMG-20231114-WA0032.jpg" alt="">
                                 </div>
                                 <div class="car__item__text">
                                     <div class="car__item__text__inner">
-                                        <div class="label-date">2017</div>
-                                        <h5><a href="./car-details-Volkswagen-High Up.html">Volkswagen-High-Up</a></h5>
+                                        <div class="label-date">2006</div>
+                                        <h5><a href="./car-details-Fiat Panda.html">Fiat-Panda Eleganza</a></h5>
                                         <ul>
-                                            <li><span>31,500</span> mi</li>
-                                            <li>Full Serviced</li>
-                                            <li><span>Cat</span> S</li>
+                                            <li><span>29,000</span> mi</li>
+                                            <li><span>2 keys</span></li>
+                                            <li><span>Hpi</span>Clear</li>
                                         </ul>
                                     </div>
                                     <div class="car__item__price">
-                                        <span class="car-option sale">For sale</span>
-                                        <h6>£7500</h6>
+                                        <span class="car-option sale">For Sale</span>
+                                        <h6>£2500</h6>
                                     </div>
                                 </div>
                             </div>
                         </div>
-        
+                        <div class="col-lg-3 col-md-4 col-sm-6 mix active">
+                            <div class="car__item">
+                                <div class="car__item__pic__slider owl-carousel">
+                                    <img src="img/cars/Mercedes-clk200/IMG-20231120-WA0002.jpg" alt="">
+                                    <img src="img/cars/Mercedes-clk200/IMG-20231120-WA0003.jpg" alt="">
+                                    <img src="img/cars/Mercedes-clk200/IMG-20231120-WA0004.jpg" alt="">
+                                    <img src="img/cars/Mercedes-clk200/IMG-20231120-WA0005.jpg" alt="">
+                                </div>
+                                <div class="car__item__text">
+                                    <div class="car__item__text__inner">
+                                        <div class="label-date">2005</div>
+                                        <h5><a href="./car-details-Mercedes-Clk-200.html">Mercedes-Benz-Clk200</a></h5>
+                                        <ul>
+                                            <li><span>141,650</span> mi</li>
+                                            <li>Manual</li>
+                                            <li><span>Petrol</span></li>
+                                        </ul>
+                                    </div>
+                                    <div class="car__item__price">
+                                        <span class="car-option sale">For sale</span>
+                                        <h6>£2,000</h6>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
                     </div>
                 </div>
                 </div>
