@@ -1,3 +1,11 @@
+/*  ---------------------------------------------------
+    Template Name: HVAC
+    Description: HVAC Car Dealer HTML Template
+    Author: Colorlib
+    Author URI: https://www.colorlib.com
+    Version: 1.0
+    Created: Colorlib
+---------------------------------------------------------  */
 
 'use strict';
 
@@ -134,10 +142,10 @@
         max: 4000,
         values: [800, 3200],
         slide: function (event, ui) {
-            $("#amount").val("$" + ui.values[0] + " - $" + ui.values[1] + ".100");
+            $("#amount").val("£" + ui.values[0] + " - £" + ui.values[1] + ".100");
         }
     });
-    $("#amount").val("$" + $(".price-range").slider("values", 0) + " - $" + $(".price-range").slider("values", 1) + ".100");
+    $("#amount").val("£" + $(".price-range").slider("values", 0) + " - £" + $(".price-range").slider("values", 1) + ".100");
 
     var carSlider = $(".car-price-range");
     carSlider.slider({
@@ -146,22 +154,22 @@
         max: 4000,
         values: [900, 3000],
         slide: function (event, ui) {
-            $("#caramount").val("$" + ui.values[0] + " - $" + ui.values[1] + ".100");
+            $("#caramount").val("£" + ui.values[0] + " - £" + ui.values[1] + ".100");
         }
     });
-    $("#caramount").val("$" + $(".car-price-range").slider("values", 0) + " - $" + $(".car-price-range").slider("values", 1) + ".100");
+    $("#caramount").val("£" + $(".car-price-range").slider("values", 0) + " - £" + $(".car-price-range").slider("values", 1) + ".100");
 
     var filterSlider = $(".filter-price-range");
     filterSlider.slider({
         range: true,
         min: 1,
-        max: 1200000,
-        values: [180000, 1000000],
+        max: 100000,
+        values: [2000, 40000],
         slide: function (event, ui) {
-            $("#filterAmount").val("[ " + "$" + ui.values[0] + " - $" + ui.values[1] + " ]");
+            $("#filterAmount").val("[ " + "£" + ui.values[0] + " - £" + ui.values[1] + " ]");
         }
     });
-    $("#filterAmount").val("[ " + "$" + $(".filter-price-range").slider("values", 0) + " - $" + $(".filter-price-range").slider("values", 1) + " ]");
+    $("#filterAmount").val("[ " + "£" + $(".filter-price-range").slider("values", 0) + " - £" + $(".filter-price-range").slider("values", 1) + " ]");
 
     /*--------------------------
         Select
